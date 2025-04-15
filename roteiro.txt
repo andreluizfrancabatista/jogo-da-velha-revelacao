@@ -4,4 +4,8 @@ end: 16h26
 
 subir para o vercel
 start: 16h27
-end:
+end: 16h42
+
+Refinamento e detalhes
+start: 16h42
+end: 

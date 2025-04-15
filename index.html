@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jogo da Velha com Imagens</title>
+  <title>Chá Revelação - Caio ❤️ Fernanda</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="estilos.css">
   <script src="script.js" defer></script>
 </head>
 <body>
   <div class="game-container">
-    <h1>Jogo da Velha - Chá revelação</h1>
+    <div class="reveal-header">
+      <h1>Chá de Revelação</h1>
+      <h2>Caio <span class="heart">❤️</span> Fernanda</h2>
+    </div>
+      
     <div class="board" id="board">
       <!-- 9 células -->
       <div class="cell" data-index="0"></div>
@@ -22,7 +27,7 @@
       <div class="cell" data-index="7"></div>
       <div class="cell" data-index="8"></div>
     </div>
-    <button class="reset-button" onclick="resetGame()">Reiniciar Jogo</button>
+    <button class="reset-button" onclick="resetGame()">Reiniciar</button>
   </div>
 
   
