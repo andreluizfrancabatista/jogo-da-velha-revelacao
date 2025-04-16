@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chá Revelação - Caio ❤️ Fernanda</title>
-  <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="estilos.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class="game-container">
-    <div class="reveal-header">
-      <h1>Chá Revelação</h1>
-      <h2>Caio <span class="heart">❤️</span> Fernanda</h2>
-    </div>
-      
-    <div class="board" id="board">
-      <!-- 9 células -->
-      <div class="cell" data-index="0"></div>
-      <div class="cell" data-index="1"></div>
-      <div class="cell" data-index="2"></div>
-      <div class="cell" data-index="3"></div>
-      <div class="cell" data-index="4"></div>
-      <div class="cell" data-index="5"></div>
-      <div class="cell" data-index="6"></div>
-      <div class="cell" data-index="7"></div>
-      <div class="cell" data-index="8"></div>
-    </div>
-    <button class="reset-button" onclick="resetGame()">Reiniciar</button>
-  </div>
 
-  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chá Revelação - Caio ❤️ Fernanda</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="game-container">
+        <div class="reveal-header">
+            <h1>Chá Revelação</h1>
+            <h2>Caio <span class="heart">❤️</span> Fernanda</h2>
+        </div>
+
+        <div class="board" id="board">
+            <!-- 9 células -->
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <button class="reset-button" onclick="resetGame()">Reiniciar</button>
+        <audio id="click-sound-1" src="tambores.ogg" preload="auto"></audio>
+        <audio id="click-sound-2" src="tan_tan_tan.ogg" preload="auto"></audio>
+        <audio id="victory-sound" src="audio_menino.ogg" preload="auto"></audio>
+
+    </div>   
+
 </body>
+
 </html>
